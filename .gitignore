@@ -129,3 +129,6 @@ Icon
 
 # Thumbnails
 ._*
+
+### node template
+node_modules/
