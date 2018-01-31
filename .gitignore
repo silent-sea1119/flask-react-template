@@ -11,7 +11,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+flask_react_template/dist/
 downloads/
 eggs/
 .eggs/
