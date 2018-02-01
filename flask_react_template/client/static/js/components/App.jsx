@@ -8,18 +8,21 @@
  * Copyright © 2018. Victor. All rights reserved.
  */
 
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
-
-class App extends Component {
-
-  render() {
-    return (
-      <div>
-        <h2><code>App.jsx</code> is working!!!</h2>
-      </div>
-    );
-  }
-}
+const App = function() {
+  return (
+    <div>
+      <h2>Header</h2>
+      <ul>
+        <li>Nav</li>
+        <li>Nav</li>
+        <li>Nav</li>
+      </ul>
+      <p>Body</p>
+      <h3>Footer</h3>
+    </div>
+  );
+};
 
 export default App;
